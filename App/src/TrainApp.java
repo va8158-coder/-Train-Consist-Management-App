@@ -25,7 +25,6 @@ public class TrainApp {
         System.out.println("Passenger bogies after removal:");
         System.out.println(passengerBogies);
 
-        // Check if Sleeper bogie exists
         if (passengerBogies.contains("Sleeper")) {
             System.out.println("Sleeper bogie exists in the train.");
         }
